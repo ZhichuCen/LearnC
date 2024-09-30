@@ -1,0 +1,3 @@
+/Users/cenzhichu/LearningC/TestCLion/cmake-build-debug/CMakeFiles/CLion.dir
+/Users/cenzhichu/LearningC/TestCLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cenzhichu/LearningC/TestCLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

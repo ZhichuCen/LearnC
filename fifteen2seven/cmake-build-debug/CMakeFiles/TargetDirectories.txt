@@ -1,0 +1,3 @@
+/Users/cenzhichu/LearningC/fifteen2seven/cmake-build-debug/CMakeFiles/fifteen2seven.dir
+/Users/cenzhichu/LearningC/fifteen2seven/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cenzhichu/LearningC/fifteen2seven/cmake-build-debug/CMakeFiles/rebuild_cache.dir
