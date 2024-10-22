@@ -1,0 +1,1 @@
+int scanf(const char*__restrict, ...);int putchar(int);int main(){int n;scanf("%d",&n);while(--n>=0)putchar('*');putchar('\n');}

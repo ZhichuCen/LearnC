@@ -6,7 +6,45 @@ int main(void)
 {
 
     int year, month, day, sum;
+    int valid_days[12] = {31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     scanf("%d%d%d", &year, &month, &day);
+
+    if (month > 12 || month < 1)
+    {
+        printf("month is error.\n");
+        return 0;
+    }
+
+    if (month == 2)
+    {
+        if (year % 4 == 0)
+        {
+            if (year % 100 == 0)
+            {
+                if (year % 400 == 0)
+                {
+                    valid_days[2 - 1] = 29;
+                }
+                else
+                {
+                    valid_days[2 - 1] = 28;
+                }
+            }
+            else
+            {
+                valid_days[2 - 1] = 29;
+            }
+        }
+        else
+        {
+            valid_days[2 - 1] = 28;
+        }
+    }
+    if (day <= 0 || day > valid_days[month - 1])
+    {
+        printf("day is error.\n");
+        return 0;
+    }
 
     sum = MAGIC_NUMBER;
 
