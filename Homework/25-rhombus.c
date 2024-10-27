@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//这是声明，防止编译器不知道函数怎么用
 int print_rhomos(int n, int h);
 int print_line(int n,int h);
 
@@ -11,7 +12,7 @@ int print_rhomos(int n, int h){
     }
 
     print_line(n,h);
-    print_rhomos(n,h+1);
+    print_rhomos(n,h+1);//这里是递归
     print_line(n,h);
     return 0;
 }
