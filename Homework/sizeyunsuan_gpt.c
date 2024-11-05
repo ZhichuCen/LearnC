@@ -1,2 +1,0 @@
-#include<stdio.h>
-int g(int a,int b){return b?g(b,a%b):a;}int a,b,c,d,u;char r;double n=0;int main(){scanf("%d/%d %c %d/%d",&a,&b,&r,&c,&d);double l=(double)a/b,x=(double)c/d;r=='+'?n=l+x:r=='-'?n=l-x:r=='*'?n=l*x:r=='/'&&(n=l/x);int f=g((int)(n*b*d+0.5),b*d);u=(int)(n*b*d/f);f=b*d/f;printf("%d/%d %c %d/%d = %s%d%s%s\n",a,b,r,c,d,!u?"0":f==1?u:"",f==1?"":u,f==1?"":"/",f==1?"":f);} 

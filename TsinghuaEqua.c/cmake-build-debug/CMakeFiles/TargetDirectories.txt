@@ -1,3 +1,0 @@
-/Users/cenzhichu/LearningC/TsinghuaEqua.c/cmake-build-debug/CMakeFiles/TsinghuaEqua_c.dir
-/Users/cenzhichu/LearningC/TsinghuaEqua.c/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/cenzhichu/LearningC/TsinghuaEqua.c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
