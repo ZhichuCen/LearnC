@@ -41,11 +41,11 @@ int main(void){
 
     scanf("%s %s %s %s %s %s",a[0],a[1],a[2],b[0],b[1],b[2]);
 
-    char suit_a_1 =a1[0];
-    printf("%c",suit)
+    // char suit_a_1 =a1[0];
+    // printf("%c",suit)
     
-    debug_show_cards(a);
-    debug_show_cards(b);
+    // debug_show_cards(a);
+    // debug_show_cards(b);
 
 
     
