@@ -1,22 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 
 int main() {
-//   char *str = NULL;
-//   size_t len = 0;
-//   ssize_t read = getline(&str, &len, stdin);
- char str[100];
+
+ char str[1000];
  int read=0;
- char temp;
+//  char temp;
 
- while((temp=getchar())!='\n'){
-    str[read++]=temp;
- }
-
-//   printf("%ld\n", read);
-//   printf("%zd\n", len);
-
-  str[read]='\0';
+ scanf("%s",str);
+ read=strlen(str);
 
   for (int i = 0; i < read - 1; i++) {
     for (int j = 0; j < read - i - 1; j++) {

@@ -1,7 +1,8 @@
 /* PRESET CODE BEGIN - NEVER TOUCH CODE BELOW */
 
 #include <stdio.h>
-#include <stdlib.h>
+
+#include<string.h>
 void reverse(char[], int, int);
 int main()
 {
@@ -18,6 +19,12 @@ int main()
 
 void reverse(char str[], int start, int end)
 {
+    if(start>=strlen(str)){
+        start=strlen(str)-1;
+    }
+    if(end>=strlen(str)){
+        end=strlen(str)-1;
+    }
     if (start < end)
     {
 
